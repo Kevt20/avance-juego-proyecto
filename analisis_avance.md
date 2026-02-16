@@ -1,6 +1,6 @@
-# Análisis del Proyecto - Juego de Adivinanza
+# Análisis Proyecto - Juego de Adivinanza
 
-**Estudiante:** Kevin Torres  
+**Estudiante:** Kevin Jimenez  
 **Curso:** Lógica de Programación  
 **Fecha:** 15 de Febrero 2026
 
@@ -158,24 +158,23 @@ puntos = (intentos que sobraron + 1) x 10
 
 ## Lo que funciona bien
 
-✅ El juego funciona sin errores  
-✅ Las validaciones evitan que se rompa  
-✅ Las pistas ayudan a adivinar más rápido  
-✅ Se puede jugar varias veces seguidas  
-✅ El sistema de puntos funciona  
+ El juego funciona sin errores  
+ Las validaciones evitan que se rompa  
+ Las pistas ayudan a adivinar más rápido  
+ Se puede jugar varias veces seguidas  
+ El sistema de puntos funciona  
 
 ---
 
 ## Lo que me falta hacer
 
-🚧 Agregar más modos de juego  
-🚧 Guardar los puntajes en un archivo  
-🚧 Hacer una interfaz más bonita  
-🚧 Agregar sonidos o colores  
+ Agregar más modos de juego  
+ Guardar los puntajes en un archivo  
+ Hacer una interfaz más bonita  
+ Agregar sonidos o colores  
 
 ---
 
-## Reflexión personal
 
 ### ¿Qué aprendí?
 
