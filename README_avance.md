@@ -1,6 +1,6 @@
 # Juego de Adivinanza
 
-**Hecho por:** Kevin Torres  
+**Nombre:** Kevin Jimenez  
 **Curso:** Lógica de Programación  
 **Fecha:** 15 de Febrero 2026
 
@@ -33,14 +33,14 @@ Es un juego simple donde tienes que adivinar un número. Lo hice para practicar 
 
 ## Lo que incluye el proyecto
 
-### ✅ Ya funciona:
+### Ya funciona:
 - Un modo de juego: adivinar números
 - Tres niveles de dificultad
 - Sistema de puntos
 - Pistas que te ayudan
 - Estadísticas básicas
 
-### 🚧 Todavía en desarrollo:
+###  Todavía en desarrollo:
 - Más modos de juego (palabras, operaciones)
 - Mejorar las estadísticas
 - Guardar los puntajes en un archivo
@@ -88,11 +88,9 @@ Intento 2/7: 75
 ¡Casi! El número es un poquito más PEQUEÑO
 
 Intento 3/7: 73
-🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
 ¡FELICIDADES! Adivinaste el número: 73
 Lo lograste en 3 intentos
 Ganaste 50 puntos
-🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
 ```
 
 ---
