@@ -1,8 +1,8 @@
 """
 Juego de Adivinanza
-Autor: Kevin Torres
+Autor: Kevin Jimenez
 Fecha: 15 de Febrero 2026
-Proyecto para el curso de Lógica de Programación
+Proyecto Juego Adivinanza
 """
 
 import random
@@ -77,7 +77,7 @@ def adivinar_numero():
             # Estructuras condicionales para dar pistas
             if intento == numero_secreto:
                 # ¡Ganó!
-                print("\n" + "🎉" * 20)
+                print("\n" + "muy bien" * 20)
                 print(f"¡FELICIDADES! Adivinaste el número: {numero_secreto}")
                 print(f"Lo lograste en {intentos} intentos")
                 
@@ -86,7 +86,7 @@ def adivinar_numero():
                 puntos += puntos_ganados
                 
                 print(f"Ganaste {puntos_ganados} puntos")
-                print("🎉" * 20)
+                print("muy bien" * 20)
                 partidas += 1
                 return True
                 
@@ -121,10 +121,10 @@ def adivinar_numero():
             print("Por favor ingresa un número válido.\n")
     
     # Si llegó aquí es porque se acabaron los intentos
-    print("\n" + "😢" * 20)
+    print("\n" + "lo siento" * 20)
     print(f"Se acabaron los intentos...")
     print(f"El número era: {numero_secreto}")
-    print("😢" * 20)
+    print("lo siento" * 20)
     partidas += 1
     return False
 
@@ -137,13 +137,13 @@ def mostrar_estadisticas():
     
     # Estructura condicional para dar un "rango" según puntos
     if puntos < 50:
-        print("Nivel: Principiante 🌱")
+        print("Nivel: Principiante ")
     elif puntos < 150:
-        print("Nivel: Intermedio 📚")
+        print("Nivel: Intermedio ")
     elif puntos < 300:
-        print("Nivel: Avanzado 🎯")
+        print("Nivel: Avanzado ")
     else:
-        print("Nivel: Experto 👑")
+        print("Nivel: Experto ")
     print()
 
 
@@ -191,7 +191,7 @@ def menu_principal():
             print("\n¡Gracias por jugar!")
             print(f"Puntos finales: {puntos}")
             print(f"Partidas jugadas: {partidas}")
-            print("\n¡Hasta pronto! 👋\n")
+            print("\n¡Hasta pronto! \n")
             break
             
         else:
